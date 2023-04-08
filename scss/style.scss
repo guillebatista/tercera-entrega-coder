@@ -1,0 +1,49 @@
+@import "./base/reset";
+@import "../layout/header";
+@import "../layout/media768";
+@import "../layout/media1024";
+@import "../scss/base/type";
+@import "../components/bootstrap";
+
+
+.click-aqui {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c3bfbf;
+    height: 1.3rem;
+
+    p {
+        font-size: 1rem;
+
+    }
+}
+
+.promo-index {
+    display: flex;
+    flex-wrap: wrap;
+
+    .img-promo {
+        width: 70%;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    .h3-promo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #c3bfbf;
+
+        h3 {
+            font-size: 2vw;
+            margin: 0;
+        }
+    }
+}
